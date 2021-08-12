@@ -1,0 +1,39 @@
+<html>
+<header>
+<title>Docker WEBUI</title>
+</header>
+<body style="background-color:#76424e">
+
+<script src="k8s.js"></script>
+
+<style> 
+.out {
+  background: #937a62;
+  padding: 15px;  
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  padding: 20px;
+  width:800px;
+  margin-left: 210px;
+  margin-top:70px;
+}
+</style>
+
+<div>
+<span style="margin-left: 100px; margin-top: 20px"><img src="https://www.pngitem.com/pimgs/m/3-31510_svg-kubernetes-logo-hd-png-download.png"  height=100px>
+</span>
+<span style="font-style: bold; font-size: 120px; ">K8s WEB-UI </span>
+</div>
+
+<br><br>
+
+<div>
+<h3>
+<span style="font-style: bold; border-radius: 100px; font-size: 20px ; margin-left: 50px;">[root@localhost ~]# <input id="input" size="75" placeholder="Enter k8s command" style="font-size: 20px;" />
+<span><button onclick="docker()"  class="btn" ><b>Execute</b></button></span> </h3></div>
+
+<div class="out"><pre><div id="d1" style="font-size: 20px; font-style: bold; font-family: Avenir Next; "> </div></pre></div>
+</div>
+
+</body>
+</html>
